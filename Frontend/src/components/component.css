@@ -1,0 +1,8 @@
+:root {
+    --primary-color: rgb(82 113 255);
+    /* Replace this with your desired color */
+}
+
+.border-btm {
+    border-bottom: var(--primary-color) solid 2px;
+}
