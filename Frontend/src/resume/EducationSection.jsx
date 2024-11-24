@@ -3,6 +3,7 @@ const EducationSection = ({ title, education }) => (
         <h2 className="mb-3">{title}</h2>
         <div className="skills-list mb-3">
             <ul>
+                {/* list */}
                 {education.map((edu, index) => (
                     <li key={index}>
                         {edu.degree} ({edu.location}) <br />
