@@ -1,0 +1,435 @@
+:root {
+    --primary-color: rgb(82 113 255);
+    --color: rgb(41 41 41)
+        /* Replace this with your desired color */
+}
+
+.toppageMain {
+    height: 28rem;
+}
+
+.top-left {
+    height: 23rem;
+    width: 50%;
+}
+
+.top-left .p1 {
+    font-size: 24px;
+}
+
+.top-left .p2 {
+    font-weight: 700;
+    font-size: 80px;
+    color: var(--primary-color);
+
+}
+
+.top-left .p3 {
+    font-size: 18px;
+}
+
+.top-left .resumeBtn {
+    background-color: var(--primary-color);
+    color: white;
+    height: 63px;
+    width: 10rem;
+    transition: all 0.7s linear;
+    border-radius: 50rem;
+}
+
+.passionate {
+    /* width: 63%; */
+    background-color: var(--primary-color);
+    height: 9rem;
+}
+
+.passionate p {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    /* color: var(--primary-color); */
+}
+
+.top-left .resumeBtn a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Skills */
+.all-skills {
+    height: 18rem;
+    width: 18rem;
+    background-color: rgba(var(--n2), 1);
+    border: 1px solid rgba(143, 143, 143, 0.25);
+    transition: all 0.3s ease-in-out;
+    padding: 18px;
+    /* margin: 24px; */
+    margin: 31px 32px 30px 0;
+    background-color: rgb(250, 250, 250);
+}
+
+.all-skills:hover {
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.16);
+
+}
+
+.all-skills-main {
+    height: 100%;
+    width: 100%;
+}
+
+.my-all-skills {
+    width: 25%;
+}
+
+.all-skills-main h2 {
+    font-size: 20px;
+    color: rgb(41 41 41);
+    font-weight: 500
+}
+
+.skillsMain {
+    margin-top: 34px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-left: solid 4px var(--primary-color);
+}
+
+.skill-images img {
+    height: 49px;
+}
+
+/* Experience */
+.imgSection img {
+    height: 124px;
+}
+
+.eduAndExp-top-left,
+.eduAndExp-bottom-left {
+    width: 23%;
+    height: 11rem;
+}
+
+/* Projects */
+.myProjects {
+    margin: 18px 27px 17px 1px;
+}
+
+.descc {
+    width: 61%;
+}
+
+.descc p {
+    border: 1px solid;
+    border-radius: 15px;
+    height: 33px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectLink a {
+    border: solid 1px;
+    border-radius: 50%;
+    height: 40px;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 232, 232);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.projectsImg img {
+    height: 345px;
+    width: 599px;
+    transition: all 0.5s ease-in-out
+}
+
+.projectsImg img:hover {
+    border: 1px solid var(--primary-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.projectLink a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.projectHeading {
+    font-size: 24px;
+    transition: all 0.5s ease-in-out;
+    font-weight: 600;
+    margin-top: 1.25rem;
+}
+
+.projectHeading:hover {
+    color: var(--primary-color);
+}
+
+.projectList {
+    width: 21%;
+    height: 69px;
+}
+
+.projectList p {
+    cursor: pointer;
+    color: rgb(143 143 143);
+    font-size: 18px;
+    font-weight: 500
+}
+
+/* Free lance */
+.freelance {
+    background-color: rgb(248 249 250);
+    height: 18rem;
+}
+
+.freelance-left .p1 {
+    font-size: calc(1.275rem + .3vw);
+    font-weight: 500;
+}
+
+.freelance-left .p2 {
+    color: rgb(111, 128, 155);
+}
+
+.freelance-right {
+    width: 26%;
+}
+
+.freelance-right input {
+    height: 49px;
+    width: 224px;
+    padding: 21px;
+    border: solid 1px;
+}
+
+.freelance-right button {
+    height: 48px;
+    background-color: var(--primary-color);
+    color: white;
+    width: 100%;
+}
+
+.contactBtn {
+    width: 123px;
+    height: 45px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 18px;
+}
+
+.touchMain p {
+    width: 45%;
+    margin-top: 12px;
+}
+
+/* Contact */
+.contactTop {
+    height: 17rem;
+    border-bottom: solid 1px rgb(79 79 79 / 8%);
+}
+
+.contactDetails p {
+    width: 48%;
+}
+
+.contactTop h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.contactTop p {
+    text-align: center;
+    width: 63%;
+}
+
+.contactLinks {
+    width: 20%;
+}
+
+.link {
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    border: solid 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.ico img {
+    height: 130px;
+}
+
+.phonedesc h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.phonedesc p {
+    font-size: 14px;
+    color: rgb(79 79 79);
+    font-weight: 400;
+}
+
+.phoneContact {
+    margin-top: 70px;
+}
+
+.gmap iframe {
+    /* width="600" height="450" style="border:0;" */
+    height: 25rem;
+
+    width: 100%;
+    border: 0;
+}
+
+.w-95 {
+    width: 100%;
+}
+
+.w-49 {
+    width: 49%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .toppageMain {
+        flex-direction: column;
+    }
+
+    .top-left {
+        width: 92%;
+        height: 30rem;
+    }
+
+    .top-left .p2 {
+        font-weight: 400;
+        font-size: 60px;
+    }
+
+    .toppageMain {
+        height: 100%;
+    }
+
+    .w-95 {
+        width: 95%;
+    }
+
+    .passionate p {
+        font-size: 22px;
+        font-weight: 650;
+    }
+
+    /* Skills */
+    .my-all-skills {
+        width: 100%;
+    }
+
+    .skillsMain {
+        width: 95%;
+    }
+
+    .all-skills {
+        width: 100%;
+    }
+
+    /* Freelance */
+    .freelanceMain {
+        flex-direction: column;
+    }
+
+    .freelance-right {
+        width: 100%;
+    }
+
+    .freelance-right button {
+        width: 26%;
+    }
+
+    .freelance-right input {
+        width: 343px;
+        padding: 13px;
+    }
+
+    .freelanceMain {
+        width: 95%;
+        height: 70%;
+    }
+
+    .freelance {
+        height: 16rem;
+    }
+
+    /* Projects */
+    .w-49 {
+        width: 100%;
+    }
+
+    .projectList {
+        width: 58%;
+    }
+
+    .descc {
+        width: 84%;
+    }
+
+    .projectsMain {
+        width: 95%;
+    }
+
+    .touchMain p {
+        width: 100%;
+    }
+
+    .touchMain {
+        width: 95%;
+    }
+
+    /* Contact */
+    .contactMain {
+        width: 95%;
+    }
+
+    .contactTop p {
+        width: 100%;
+    }
+
+    .contactLinks {
+        width: 81%;
+    }
+
+    .contactDetails p {
+        width: 100%;
+    }
+
+    .phoneContact {
+        flex-wrap: wrap;
+    }
+
+    .phones {
+        width: 82%;
+    }
+
+    .phonedesc {
+        width: 56%;
+    }
+}
