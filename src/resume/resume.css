@@ -144,6 +144,7 @@
     }
     .footer{
         width: 100%;
+        flex-wrap: wrap;
     }
 
     .footer .footerLinks {
