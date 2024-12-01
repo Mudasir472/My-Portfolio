@@ -12,22 +12,22 @@ function Contact() {
                     <p>Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me an email to <a className="mail" href="mailto:bhatmuddu472@gmail.com">bhatmuddu472@gmail.com</a> .Want to get connected? Follow me on the social channels below.</p>
                     <div className="contactLinks flex items-center justify-between">
                         <div className="link">
-                            <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.facebook.com/bhat.muddu.35" target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-facebook"></i>
                             </a>
                         </div>
                         <div className="link">
-                            <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/bhat_muddu_/" target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-instagram"></i>
                             </a>
                         </div>
                         <div className="link">
-                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/mudasir-bhat-553119228/" target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-linkedin"></i>
                             </a>
                         </div>
                         <div className="link">
-                            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                            <a href="https://x.com/MudduBhat" target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-twitter"></i>
                             </a>
                         </div>
