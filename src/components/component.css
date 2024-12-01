@@ -10,3 +10,6 @@
 .bg-color {
     background-color: var(--primary-color);
 }
+.mt-10px{
+    margin-top: 10px;
+}
